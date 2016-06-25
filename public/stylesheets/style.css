@@ -1,0 +1,20 @@
+/*
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*/
+
+#likesComments {
+  font-size: 25px;
+}
+
+#commentBody {
+  display: inline;
+  padding-left: 20px;
+}
+
