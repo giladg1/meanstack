@@ -64,7 +64,7 @@ app.factory('auth', ['$http', '$window', function($http, $window){
     /*
      If a token exists, we'll need to check the payload to see if the token has expired,
      otherwise we can assume the user is logged out. The payload is the middle part of the token between the two .s.
-     It's a JSON object that has been base64'd. We can get it back to a stringified JSON by using$window.atob(),
+     It's a JSON object that has been base64'd. We can get it back to a stringified JSON by using $window.atob(),
      and then back to a javascript object with JSON.parse.
      */
     auth.isLoggedIn = function(){

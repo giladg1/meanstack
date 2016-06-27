@@ -12,7 +12,8 @@ require('./models/Users'); // add our models files for moongoose scheme before r
 
 require('./config/passport'); // Require the passport configuration we just created after where we required our User model.
 
-mongoose.connect('mongodb://localhost/news');
+mongoose.connect('mongodb://localhost/news'); // localhost mongodb
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
